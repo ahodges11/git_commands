@@ -1,0 +1,18 @@
+#git config
+
+
+specifiy the scope of any config command with --[scope]
+e.g.
+git config --local
+git config --system
+git config --global
+
+
+### Set user details for commits/changes
+git config user.email EXAMPLE@EMAIL.COM
+git config user.name EXAMPLE_NAME 
+
+### View user details for commits/changes
+git config user.email
+git config user.name
+
